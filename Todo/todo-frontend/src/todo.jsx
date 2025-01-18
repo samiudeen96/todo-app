@@ -18,7 +18,7 @@ function Todo() {
 
   useEffect(() => {
     getTodos();
-  });
+  }, []);
 
   const handleSubmit = () => {
     setError("");
